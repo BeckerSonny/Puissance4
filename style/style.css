@@ -1,0 +1,130 @@
+/* bleu #1194b1 */
+
+@font-face {
+    font-family: 'neuropol x rg.ttf';
+    src: url('font/neuropol x rg.ttf') format('truetype');
+ }
+
+ .select {
+     margin-left: 5px;
+     background-color: transparent;
+     color: #1194b1;
+     border-color: #1194b1;
+ }
+
+ .party_options {
+     margin-top: 10px;
+ }
+
+ .name_player, .play {
+    margin-top: 20px;
+}
+ 
+.grid {
+    background-image: url('images/grille1.png');
+    background-size: cover;
+    padding-top: 10px; 
+    height: 70px;
+    column-width: 70px;
+    z-index: 1;
+}
+
+.row_fall {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.returnToken {
+    margin: 10px;
+}
+
+.puissance {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.checkbox {
+    margin-top: 20px;
+}
+
+.return {
+    margin: 6px;
+}
+
+.fond {
+    background-image: url('images/robot_fond.jpg');
+    background-size: cover;
+    background-position: 20% 60%;
+    height: 1200px;
+    font-family: 'neuropol x rg.ttf';
+    color: azure;
+}
+
+.info_game {
+    min-height: 150px;
+}
+
+.p_select {
+    padding-top: 6px;
+}
+
+.btn_false {
+    height: 40px;
+    margin-left: 3px;
+}
+
+.btn_false:hover {
+    color: #1194b1;
+    background-color: transparent;
+    border-color: #1194b1;
+}
+
+.deco {
+    position: relative;
+    bottom: 10px;
+}
+
+.jeton1, .jeton2 {
+    position: relative;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.jeton1 {
+    background-color: yellow;
+}
+
+.jeton2 {
+    background-color:  red;
+}
+
+.score {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@keyframes rotateWin {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.tokenWin {
+    animation: rotateWin 3s linear infinite;
+}
+
+.quit {
+    margin-left: 50%;
+    width: 150px;
+    position: relative;
+    top: 20px;
+    right: 75px;
+}
